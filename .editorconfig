@@ -1,0 +1,19 @@
+# Primeiro projeto com Node.JS - Estrutura e padrões -
+# Padrões de projeto com Eslint, Prettier e Editor Config
+# E uma configuração necessária fazer para
+# Manter a organização e o padrão no código
+# foi feito depois da aula 01 - Configurando estrutura
+
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf # para evitar algum tipo de problema de quebra de linha quando executar em outro sistema que não seja o linux
